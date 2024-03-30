@@ -45,7 +45,28 @@ Obrigado por escolher nosso programa!
 
 ### Comandos básicos para a primeira instalação:
 
-```bash
+```termux-change-repo
+
+apt-get upgrade -y
+
+apt-get update -y
+
+pkg upgrade -y
+
+pkg update -y 
+
+pkg install nodejs -y 
+
+pkg install nodejs-lts -y
+
+pkg install ffmpeg -y 
+
+pkg install wget -y 
+
+pkg install tesseract -y
+
+pkg install git -y
+
 git clone https://github.com/https://github.com/Nadeko161
 cd Moz-bot-md
 node .
